@@ -8,6 +8,7 @@ public class DemoRestController {
 
 	@GetMapping("/welcome")
 	public String welcome() {
+		System.out.println("Demo Controller");
 		String s1 = null;
 		s1.length();
 		return "Hello, Welcome to Rest API's";
